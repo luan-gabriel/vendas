@@ -1,0 +1,139 @@
+body {
+    background-image:url('./img/vap.jpg');
+    background-size: 110%;
+    background-repeat: repeat-y;
+    background-position: center;
+  }
+  p {
+      color: rgb(252, 250, 250);
+      font-size: 20px;
+      text-align:center
+  }
+  #menu{
+      margin-top: 20px;
+      background-color: #ededed;
+      border-radius: 2px;
+      margin-bottom: 80px;
+  }
+
+  #menu ul {
+    text-align: center;  
+    list-style: menu ;
+  }
+  #menu ul li {
+      display: inline;
+  }
+  #menu ul li a {
+      padding: 12px 10px; /* espaço ao redor da nossa tag em questão, <a> */
+      font-size: 22p;
+
+      background-color: #ededed;
+      color:#333;
+      text-decoration: none;
+      /*border-bottom: 3px solid #5C44;*/
+      border-radius: 5px;
+}
+
+#menu ul li a:hover{ /*interação com os botão*/
+    background-color: #5C4444;
+    color: #fff;
+}
+  
+#cardapio{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#cardapio img{
+    padding: 5px;
+    width: 360px;
+    height: 380px;
+    border-radius: 20px;
+
+}
+
+ 
+
+ #produtos{
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    color:rgb(180, 177, 177); 
+    
+    background-color: rgba(0,0,0, 0.85);
+     margin: 10px;
+     border-radius: 5px;
+     padding: 20px;
+    }
+
+    #produtos p {
+        font-size: 14px;
+        font-size: inherit;
+    }
+
+    #produtos button {
+        background-color: rgb(65, 219, 51);
+        padding : 10px;
+        border-radius: 5px;
+        border: none;
+        color:rgb(252, 248, 248);
+        font-size: 14px;
+        font-weight: bold;
+        cursor: pointer;
+
+    }
+
+    #produtos button :hover{
+        background-color: #b11d3b
+    }
+    #conteiner{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #conteiner img{
+        padding: 5px;
+        width: 360px;
+        height: 260px;
+        border-radius: 50px;
+    }
+
+    #about{
+        display: flex;
+        flex-direction:row;
+        text-align:center;
+        color:rgb(180, 177, 177); 
+        
+        background-color: rgba(0,0,0, 0.85);
+         margin: 10px;
+         border-radius: 5px;
+         padding: 20px;
+        }
+        #about{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            color: #ededed;
+        }
+        #about h1{
+            font-style: italic;
+        
+        }
+        #about p {
+            padding-top: 40px;
+            padding-left: 20px;
+            padding-right: 20px;
+            font-size: 17px;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-style: italic;
+            text-align: justify;
+        }
+
+        #body-about {
+            display: flex;
+            flex-direction: row;
+        }
+
+        
